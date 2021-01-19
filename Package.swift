@@ -27,7 +27,7 @@ let package = Package(
             targets: ["RxFirebaseAuthentication"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "5.1.0")),
+        .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "6.0.0")),
         .package(name: "Firebase", url: "https://github.com/firebase/firebase-ios-sdk",  .upToNextMajor(from: "7.0.0"))
     ],
     targets: [
